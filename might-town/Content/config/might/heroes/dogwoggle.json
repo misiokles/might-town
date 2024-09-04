@@ -1,0 +1,61 @@
+{
+	"dogwoggle" :
+	{
+		"class" : "bzerk",
+		"texts" :
+		{
+			"name" : "Dogwoggle",
+			"biography" : "Dogwoggle is a hapless hero who has a way of getting into trouble. He often brags about his abilities (which are questionable) and exhibits unflagging confidence no matter how often he fails. However, with his mindless persistence, he always manages to stumble out of trouble and come out on top.",
+			"specialty" :
+			{
+				"description" : "Bonus of Harpies",
+				"tooltip" : "",
+				"name" : "Harpies"
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "might/heroes/dogwoggle/spec-small.png",
+			"specialtyLarge" : "might/heroes/dogwoggle/spec-large.png",
+			"large" : "might/heroes/dogwoggle/portrait-large.png",
+			"small" : "might/heroes/dogwoggle/portrait-small.png"
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "zerker",
+				"max" : 20,
+				"min" : 15
+			},
+			{
+				"creature" : "h4harp",
+				"max" : 7,
+				"min" : 4
+			},
+			{
+				"creature" : "h4harp",
+				"max" : 7,
+				"min" : 4
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "logistics"
+			},
+			{
+				"level" : "basic",
+				"skill" : "scouting"
+			}
+		],
+		
+		"specialty" : {
+			"creature" : "h4harp"
+		}
+	}
+}
+

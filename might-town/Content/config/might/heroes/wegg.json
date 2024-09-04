@@ -1,0 +1,61 @@
+{
+	"wegg" :
+	{
+		"class" : "bzerk",
+		"texts" :
+		{
+			"name" : "Wegg",
+			"biography" : "There are few Barbarians as skilled in warfare as Wegg. He can proudly tell you how he got each of his numerous scars and how he took revenge on the one who gave it to him. His bravado aside, one can't survive so many injuries without being a tremendous warrior.",
+			"specialty" :
+			{
+				"description" : "Bonus of Behemoths",
+				"tooltip" : "",
+				"name" : "Behemoths"
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "might/heroes/wegg/spec-small.png",
+			"specialtyLarge" : "might/heroes/wegg/spec-large.png",
+			"large" : "might/heroes/wegg/portrait-large.png",
+			"small" : "might/heroes/wegg/portrait-small.png"
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "zerker",
+				"max" : 20,
+				"min" : 15
+			},
+			{
+				"creature" : "h4harp",
+				"max" : 7,
+				"min" : 4
+			},
+			{
+				"creature" : "h4harp",
+				"max" : 7,
+				"min" : 4
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "logistics"
+			},
+			{
+				"level" : "basic",
+				"skill" : "scouting"
+			}
+		],
+		
+		"specialty" : {
+			"creature" : "behe"
+		}
+	}
+}
+

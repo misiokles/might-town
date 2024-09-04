@@ -1,0 +1,55 @@
+{
+	"trome" :
+	{
+		"class" : "bzerk",
+		"texts" :
+		{
+			"name" : "Trome",
+			"biography" : "Trome spent five years as a swamp lizard as a result of a wizard's punishment, or so he claims. The experience left this eccentric man with a deep understanding and love of reptiles, as well as a weak hold on his sanity.",
+			"specialty" :
+			{
+				"description" : "Bonus of Nomads",
+				"tooltip" : "",
+				"name" : "Nomads"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "might/heroes/trome/spec-small.png",
+			"specialtyLarge" : "might/heroes/trome/spec-large.png",
+			"large" : "might/heroes/trome/portrait-large.png",
+			"small" : "might/heroes/trome/portrait-small.png"
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "zerker",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "h4nomad",
+				"max" : 3,
+				"min" : 1
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "pathfinding"
+			},
+			{
+				"level" : "basic",
+				"skill" : "offence"
+			}
+		],
+		
+		"specialty" : {
+			"creature" : "h4nomad"
+		}
+	}
+}
+

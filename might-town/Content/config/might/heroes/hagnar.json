@@ -1,0 +1,60 @@
+{
+	"hagnar" :
+	{
+		"class" : "bzerk",
+		"texts" :
+		{
+			"name" : "Hagnar",
+			"biography" : "Hagnar is a veteran of more wars than he can count. He hasn't always been proud of his victories, but he has always acted honorably even when his fellow Barbarians have not. He still fights to protect his people even though he has reached the age when most men put down the sword.",
+			"specialty" :
+			{
+				"description" : "Bonus of Ogre Magi",
+				"tooltip" : "",
+				"name" : "Ogre Magi"
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "might/heroes/hagnar/spec-small.png",
+			"specialtyLarge" : "might/heroes/hagnar/spec-large.png",
+			"large" : "might/heroes/hagnar/portrait-large.png",
+			"small" : "might/heroes/hagnar/portrait-small.png"
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "zerker",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "cent",
+				"max" : 12,
+				"min" : 7
+			},
+			{
+				"creature" : "h4harp",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "diplomacy"
+			},
+			{
+				"level" : "basic",
+				"skill" : "resistance"
+			}
+		],
+		
+		"specialty" : {
+			"creature" : "omag"
+		}
+	}
+}

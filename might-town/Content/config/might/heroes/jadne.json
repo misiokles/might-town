@@ -1,0 +1,63 @@
+{
+	"jadne" :
+	{
+		"class" : "haruspex",
+		"female" : true,
+		"texts" :
+		{
+			"name" : "Jadne",
+			"biography" : "Fiery-tempered Jadne is clanless because her father refuses to acknowledge her as his daughter. Such a harsh life has made her a strong fighter at a young age. Most people can't hold her gaze for long, for it reminds them of a certain famous Barbarian who loves to hack people apart.",
+			"specialty" :
+			{
+				"description" : "Bonus of Nomads",
+				"tooltip" : "",
+				"name" : "Nomads"
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "might/heroes/jadne/spec-small.png",
+			"specialtyLarge" : "might/heroes/jadne/spec-large.png",
+			"large" : "might/heroes/jadne/portrait-large.png",
+			"small" : "might/heroes/jadne/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"dispel"
+		],
+
+
+		"army" :
+		[
+			{
+				"creature" : "zerker",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "cent",
+				"max" : 8,
+				"min" : 5
+			},
+			{
+				"creature" : "h4nomad",
+				"max" : 8,
+				"min" : 6
+			}
+		],
+
+		"skills" : 
+		[
+			{
+				"level" : "advanced",
+				"skill" : "wisdom"
+			}
+		],
+		
+		"specialty" : {
+			"creature" : "h4nomad"
+		}
+	}
+}

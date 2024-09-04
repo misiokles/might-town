@@ -1,0 +1,66 @@
+{
+	"mtazar" :
+	{
+		"class" : "bzerk",
+		"texts" :
+		{
+			"name" : "Tazar",
+			"biography" : "Tazar is a clanless outsider who wanders from clan to clan doing odd jobs for a meal and lodging. Sometimes, he is able to hire out his strong sword arm as well. This is the life he has become accustomed to, although in private he longs to be accepted by one of the tribes.",
+			"specialty" :
+			{
+				"description" : "+1 Gem per day",
+				"tooltip" : "",
+				"name" : "+1 Gem"
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "might/heroes/tazar/spec-small.png",
+			"specialtyLarge" : "might/heroes/tazar/spec-large.png",
+			"large" : "might/heroes/tazar/portrait-large.png",
+			"small" : "might/heroes/tazar/portrait-small.png"
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "zerker",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "cent",
+				"max" : 10,
+				"min" : 8
+			},
+			{
+				"creature" : "h4harp",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+		
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "logistics"
+			},
+			{
+				"level" : "basic",
+				"skill" : "leadership"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"gems" : {
+					"subtype" : "resource.gems",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 1
+				}
+			}
+		}
+	}
+}

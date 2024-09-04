@@ -1,0 +1,76 @@
+{
+	"mshiva" : 
+	{
+		"class" : "haruspex",
+		"female" : true,
+		"texts" :
+		{
+			"name" : "Shiva",
+			"biography" : "Beautiful Shiva should have been her clan's religious leader, but her family was killed during the Reckoning while attempting to save some sacred animals. Despairing over the futility of all her ceremonies and sacrifices, Shiva abandoned the gods and took up a sword instead.",
+			"specialty" :
+			{
+				"description" : "Bonus of Mysticism",
+				"tooltip" : "",
+				"name" : "Mysticism"
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "might/heroes/shiva/spec-small.png",
+			"specialtyLarge" : "might/heroes/shiva/spec-large.png",
+			"large" : "might/heroes/shiva/portrait-large.png",
+			"small" : "might/heroes/shiva/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"visions"
+		],
+
+		"army" :
+		[
+			{
+				"creature" : "zerker",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "cent",
+				"max" : 10,
+				"min" : 8
+			},
+			{
+				"creature" : "h4harp",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "mysticism"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"mysticism" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "MANA_REGENERATION",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+				}
+			}
+		}
+	}
+}
+
+

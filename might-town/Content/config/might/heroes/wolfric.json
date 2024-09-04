@@ -1,0 +1,60 @@
+{
+	"wolfric" :
+	{
+		"class" : "bzerk",
+		"texts" :
+		{
+			"name" : "Wolfric",
+			"biography" : "Good-natured Wolfric is someone to have around when spirits are down. He is vibrant, funny, and capable of telling a story better than any bard. In the moments before a battle, his jokes and taunts calm the nerves of inexperienced warriors, as well as rile the tempers of the enemy.",
+			"specialty" :
+			{
+				"description" : "{Ballista}\r\n\r\nIncreses the Attack and Defense skill of any Ballista for each level attained after 4th level.",
+				"tooltip" : "",
+				"name" : "Ballista"
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "might/heroes/wolfric/spec-small.png",
+			"specialtyLarge" : "might/heroes/wolfric/spec-large.png",
+			"large" : "might/heroes/wolfric/portrait-large.png",
+			"small" : "might/heroes/wolfric/portrait-small.png"
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "zerker",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "cent",
+				"max" : 12,
+				"min" : 7
+			},
+			{
+				"creature" : "h4harp",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "diplomacy"
+			},
+			{
+				"level" : "basic",
+				"skill" : "resistance"
+			}
+		],
+		
+		"specialty" : {
+			"creature" : "ballista"
+		}
+	}
+}

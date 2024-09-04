@@ -1,0 +1,93 @@
+{
+	"mchamp": {
+		"name" : {
+			"plural" : "Barbarians",
+			"singular" : "Barbarian"
+		},
+		"faction" : "might",
+		"aiValue" : 1070,
+		"special" : true,
+		"attack" : 5,
+		"damage" :
+		{
+			 "max" : 15,
+			 "min" : 7
+		},
+		"defense" : 5,
+		"fightValue" : 961,
+		"growth" : 1,
+		"hitPoints" : 60,
+		"shots" : 24,
+		"level" : 0,
+		"speed" : 5,
+		"abilities" :
+		{
+		"canShoot" :
+			{
+				"type" : "SHOOTER"
+			},
+			"magicResistance" :
+			{
+				"type" : "MAGIC_RESISTANCE",
+				"val" : 5
+			},
+			"castsAmount" :
+			{
+				"type" : "CASTS",
+				"val" : 1
+			},
+			"enchant" :
+			{
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 1
+			},
+			"spellpower" :
+			{
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 100
+			},
+			"canCast" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.misfortune",
+				"val" : 3
+			}
+		},
+		"graphics" : {
+			"animation" : "might/battle/creatures/mchamp.def",
+			"map" : "might/map/mchampmini.def",
+			"iconSmall" : "might/iconsSmall/mchamps.bmp",
+			"iconLarge" : "might/iconsBig/mchampl.bmp",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"missile" :
+			{
+				"projectile" : "PELFX.DEF",
+				"attackClimaxFrame" : 4,
+				"offset" :
+				{
+					"lowerX" : 62,
+					"lowerY" : -93,
+					"middleX" : 62,
+					"middleY" : -93,
+					"upperX" : 62,
+					"upperY" : -93
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+
+			},			
+			"timeBetweenFidgets" : 1
+		},
+		"sound" : {
+			"attack": "might/mchampatk.wav",
+			"defend": "might/mchampblk.wav",
+			"killed": "might/mchampdie.wav",
+			"shoot": "might/mchampsh.wav",			
+			"move": "might/mchampwalk.wav",
+			"wince": "might/mchamphit.wav"
+		}
+	}
+}

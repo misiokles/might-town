@@ -1,0 +1,57 @@
+{
+	"omag" : {
+		"abilities":
+		{
+			"castsBloodlust" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.bloodlust",
+				"val" : 2
+			},
+			"castsCount" :
+			{
+				"type" : "CASTS",
+				"val" : 4
+			},
+			"castLength" :
+			{
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 3
+			}
+		},
+		"advMapAmount" : {"max" : 10, "min" : 6},
+		"aiValue" : 1532,
+		"attack" : 20,
+		"cost" : { "gold" : 1300 },
+		"damage" : {"max" : 23, "min" : 18},
+		"defense" : 18,
+		"faction" : "might",
+		"fightValue" : 1374,
+		"graphics" : {
+			"animation" : "might/battle/creatures/omag.def",
+			"animationTime" :
+			{
+				"walk" : 1.00,
+				"attack" : 1,
+				"idle" : 10
+			},
+			"map" : "might/map/omagmini.def",
+			"iconSmall" : "might/iconsSmall/omags.bmp",
+			"iconLarge" : "might/iconsBig/omagl.bmp",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 2,
+		"hitPoints" : 90,
+		"level" : 6,
+		"name" : { "plural" : "Ogre Magi", "singular" : "Ogre Mage" },
+		"sound" : {
+			"attack": "might/omagatk.wav",
+			"defend": "might/omaghit.wav",
+			"killed": "might/omagdie.wav",
+			"move": "might/omagwalk.wav",
+			"shoot": "might/omagcast.wav",
+			"wince": "might/omaghit.wav"
+		},
+		"speed" : 7
+	}
+}

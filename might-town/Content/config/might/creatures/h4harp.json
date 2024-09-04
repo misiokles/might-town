@@ -1,0 +1,65 @@
+{
+	"h4harp":
+	{
+		"name" :
+		{
+			"plural" : "Harpies",
+			"singular" : "Harpy"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 10,
+			 "min" : 5
+		},
+		"faction" : "might",
+		"aiValue" : 271,
+		"attack" : 9,
+        "cost" :
+		{
+			"gold" : 200
+		},
+		"damage" :
+		{
+			 "max" : 5,
+			 "min" : 4
+		},
+		"defense" : 5,
+		"fightValue" : 220,
+		"graphics" :
+		{
+			"animation" : "might/battle/creatures/h4harp.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "might/map/h4harpmini.def",
+			"iconSmall" : "might/iconsSmall/h4harps.bmp",
+			"iconLarge" : "might/iconsBig/h4harpl.bmp",
+			"timeBetweenFidgets" : 1
+               },
+		"growth" : 7,
+		"hitPoints" : 20,
+		"level" : 3,
+		"sound" :
+		{
+			"attack": "might/harpatk.wav",
+			"defend": "might/harphit.wav",
+			"killed": "might/harpdie.wav",
+			"move": "might/harpwalk.wav",
+			"wince": "might/harphit.wav"
+		},
+		"speed" : 9,
+		"abilities":
+		{
+			"strikeAndReturn" : 
+			{
+				"type" : "RETURN_AFTER_STRIKE"
+			},
+			"canFly" : 
+			{
+			    "type" : "FLYING"
+			},
+			"noRetaliation" : 
+			{
+				"type" : "BLOCKS_RETALIATION"
+			}
+		}
+	}
+}

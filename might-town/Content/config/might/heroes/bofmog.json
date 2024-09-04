@@ -1,0 +1,67 @@
+{
+	"bofmog" :
+	{
+		"class" : "bzerk",
+		"texts" :
+		{
+			"name" : "Bofmog",
+			"biography" : "Bofmog was Kilgor's personal executioner. On those few occasions when Kilgor didn't do the deed himself, he turned it over to silent, thoughtful Bofmog. Unknown to the mad king, however, Bofmog decided for himself who deserved to die. For those that didn't, he arranged an escape.",
+			"specialty" :
+			{
+				"description" : "+1 Gem per day",
+				"tooltip" : "",
+				"name" : "+1 Gem"
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "might/heroes/bofmog/spec-small.png",
+			"specialtyLarge" : "might/heroes/bofmog/spec-large.png",
+			"large" : "might/heroes/bofmog/portrait-large.png",
+			"small" : "might/heroes/bofmog/portrait-small.png"
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "zerker",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "cent",
+				"max" : 10,
+				"min" : 8
+			},
+			{
+				"creature" : "h4harp",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+		
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "logistics"
+			},
+			{
+				"level" : "basic",
+				"skill" : "leadership"
+			}
+		],
+		
+		"specialty": {
+			"bonuses": {
+				"estate" :
+					{
+						"type": "GENERATE_RESOURCE",
+						"subtype": "resource.gems",
+						"val": 1
+					}
+			}
+		}
+	}
+}

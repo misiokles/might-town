@@ -1,0 +1,55 @@
+{
+	"mbron" :
+	{
+		"class" : "bzerk",
+		"texts" :
+		{
+			"name" : "Bron",
+			"biography" : "Bron was once a swamp fighter for Tatalia, but war and the Reckoning obliterated his people. Now, this rugged man has fought his way into the Barbarian clans, where he has found their sense of community comforting and worth preserving.",
+			"specialty" :
+			{
+				"description" : "Bonus of Cyclopes",
+				"tooltip" : "",
+				"name" : "Cyclopes"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "might/heroes/bron/spec-small.png",
+			"specialtyLarge" : "might/heroes/bron/spec-large.png",
+			"large" : "might/heroes/bron/portrait-large.png",
+			"small" : "might/heroes/bron/portrait-small.png"
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "zerker",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "clops",
+				"max" : 1,
+				"min" : 1
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "pathfinding"
+			},
+			{
+				"level" : "basic",
+				"skill" : "offence"
+			}
+		],
+		
+		"specialty" : {
+			"creature" : "clops"
+		}
+	}
+}
+

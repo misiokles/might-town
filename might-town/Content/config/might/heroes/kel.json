@@ -1,0 +1,76 @@
+{
+	"kel" : 
+	{
+		"class" : "haruspex",
+		"female" : true,
+		"texts" :
+		{
+			"name" : "Kel",
+			"biography" : "As soon as Kel came of age, her people married her to their War God in a spectacular and bloody ceremony. Now, it is said that each time she is victorious over an enemy, she will take their power until the day that she, too, becomes a goddess and joins her husband.",
+			"specialty" :
+			{
+				"description" : "Bonus of Mysticism",
+				"tooltip" : "",
+				"name" : "Mysticism"
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "might/heroes/kel/spec-small.png",
+			"specialtyLarge" : "might/heroes/kel/spec-large.png",
+			"large" : "might/heroes/kel/portrait-large.png",
+			"small" : "might/heroes/kel/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"visions"
+		],
+
+		"army" :
+		[
+			{
+				"creature" : "zerker",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "cent",
+				"max" : 10,
+				"min" : 8
+			},
+			{
+				"creature" : "h4harp",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "mysticism"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"mysticism" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "MANA_REGENERATION",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+				}
+			}
+		}
+	}
+}
+
+

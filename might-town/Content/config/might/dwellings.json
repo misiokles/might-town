@@ -1,0 +1,90 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"longhouse" : {
+				"name" : "Longhouse",
+				"creatures" : [[ "zerker" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "might/adventure-map/dwell1.def",
+						"mask" : [ "VVV", "VVV", "BAB" ]
+					}
+				}
+			},
+			"centaurstables" : {
+				"name" : "Centaur Stables",
+				"creatures" : [[ "cent" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "might/adventure-map/dwell2.def",
+						"mask" : [ "VVV", "BBB", "BAB" ]
+					}
+				}
+			},
+			"harpypeak" : {
+				"name" : "Harpy Peak",
+				"creatures" : [[ "h4harp" ]],
+				"templates" : {
+					"default" : {	
+						"animation" : "might/adventure-map/dwell3.def",
+						"mask" : [ "VVV", "VBB", "VAB" ]
+					}
+				}
+			},
+			"nomadtents" : {
+				"name" : "Nomad Tents",
+				"creatures" : [[ "h4nomad" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "might/adventure-map/dwell4.def",
+						"mask" : [ "VVV", "BBB", "BAB" ]
+					}
+				}
+			},
+			"cyclopscave" : {
+				"name" : "Cyclops Cave",
+				"creatures" : [[ "clops" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "might/adventure-map/dwell5.def",
+						"mask" : [ "VVV", "VBV", "BAB" ]
+					}
+				}
+			},
+			"ogrefort" : {
+				"name" : "Ogre Fort",
+				"creatures" : [[ "omag" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "might/adventure-map/dwell6.def",
+						"mask" : [ "VVV", "BBB", "BAB" ]
+					}
+				}
+			},
+			"behecrag" : {
+				"name" : "Behemoth Crag",
+				"creatures" : [[ "behe" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "might/adventure-map/dwell7.def",
+						"mask" : [ "VVV", "BBB", "BAB" ]
+					}
+				}
+			},			
+			"cliffnest" : {
+				"name" : "Cliff Nest",
+				"creatures" : [[ "tbird" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "might/adventure-map/dwell8.def",
+						"mask" : [ "VVV", "BBB", "BAB" ]
+					}
+				}
+			}
+		}		
+	}	
+}

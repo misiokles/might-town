@@ -1,0 +1,57 @@
+{
+	"zerker":
+	{
+		"name" :
+		{
+			"plural" : "Berserkers",
+			"singular" : "Berserker"
+		},
+		"advMapAmount" :
+		{
+			"max" : 50,
+			"min" : 20
+		},
+		"faction" : "might",
+		"aiValue" : 50,
+		"attack" : 4,
+		"cost" :
+		{
+			"gold" : 50
+		},
+		"damage" :
+		{
+			"max" : 3,
+			"min" : 1
+		},
+		"defense" : 2,
+		"fightValue" : 57,
+		"graphics" :
+		{
+			"animation" : "might/battle/creatures/zerker.def",
+			"map" : "might/map/zerkermini.def",
+			"iconSmall" : "might/iconsSmall/zerkers.bmp",
+			"iconLarge" : "might/iconsBig/zerkerl.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+
+		"growth" : 15,
+		"hitPoints" : 4,
+		"horde" : 10,
+        "level" : 1,
+		"sound" :
+		{
+			"attack": "might/beratk.wav",
+			"defend": "might/berhit.wav",
+			"killed": "might/berdie.wav",
+			"move": "might/berwalk.wav",
+			"wince": "might/berhit.wav"
+		},
+		"speed" : 5
+	}
+}

@@ -1,0 +1,67 @@
+{
+	"name" : "Might",
+	"description" : "Heroes IV Might/Stronghold Town",
+	
+	"author" : "AcidChalk",
+	"contact" : "",
+	"version" : "0.8",
+	"modType" : "Town",
+
+    "factions" : [ "config/might/town.json" ],
+	
+	"creatures" :
+	[
+		"config/might/creatures/zerker.json",
+		"config/might/creatures/cent.json",
+		"config/might/creatures/h4harp.json",
+		"config/might/creatures/h4nomad.json",
+		"config/might/creatures/clops.json",
+		"config/might/creatures/omag.json",
+		"config/might/creatures/behe.json",
+		"config/might/creatures/tbird.json",
+		"config/might/creatures/fchamp.json",
+		"config/might/creatures/mchamp.json"
+	],
+	
+        
+    
+	
+	"heroClasses" :
+	[
+		"config/might/classes/bzerk.json",
+		"config/might/classes/haruspex.json"
+	],
+	"objects" : 
+	[ 
+	"config/might/dwellings.json",
+	],
+	"heroes" :
+	[
+		"config/might/heroes/bofmog.json",
+		"config/might/heroes/bron.json",
+	    "config/might/heroes/crag.json",
+		"config/might/heroes/dogwoggle.json",
+		"config/might/heroes/ferret.json",
+		"config/might/heroes/hagnar.json",
+		"config/might/heroes/khorrun.json",		
+		"config/might/heroes/krellion.json",	
+		"config/might/heroes/tazar.json",
+		"config/might/heroes/trome.json",
+		"config/might/heroes/wegg.json",		
+		"config/might/heroes/wolfric.json",	
+		"config/might/heroes/yog.json",
+		"config/might/heroes/abegga.json",
+		"config/might/heroes/colwa.json",
+		"config/might/heroes/drenka.json",		
+		"config/might/heroes/jadne.json",
+		"config/might/heroes/kel.json",		
+	    "config/might/heroes/lanya.json",	
+		"config/might/heroes/nef.json",
+		"config/might/heroes/oroon.json",
+		"config/might/heroes/ranella.json",
+		"config/might/heroes/shiva.json",		
+		"config/might/heroes/toadeater.json",
+		"config/might/heroes/vix.json",		
+		"config/might/heroes/yutena.json"
+	]
+}

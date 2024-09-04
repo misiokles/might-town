@@ -1,0 +1,82 @@
+{
+	"cent":
+	{
+		"name" :
+		{
+			"plural" : "Centaurs",
+			"singular" : "Centaur"
+		},
+		"advMapAmount" :
+		{
+			"max" : 30,
+			"min" : 16
+		},
+		"faction" : "might",
+		"aiValue" : 146,
+		"attack" : 8,
+		"cost" :
+		{
+			"gold" : 110
+		},
+		"damage" :
+		{
+			"max" : 4,
+			"min" : 2
+		},
+		"defense" : 3,
+		"fightValue" : 154,
+		"graphics" :
+		{
+			"animation" : "might/battle/creatures/cent.def",
+			"map" : "might/map/centmini.def",
+			"iconSmall" : "might/iconsSmall/cents.bmp",
+			"iconLarge" : "might/iconsBig/centl.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.00,
+				"attack" : 1,
+				"idle" : 10
+			},
+			"missile" :
+			{
+				"projectile" : "might/battle/creatures/projectile/spear.def",
+				"attackClimaxFrame" : 7,
+				"offset" :
+				{
+					"upperX" : 38,
+					"upperY" : -65,
+					"middleX" : 36,
+					"middleY" : -59,
+					"lowerX" : 21,
+					"lowerY" : -50
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+		},	
+		"doubleWide" : true,
+		"growth" : 8,
+		"hitPoints" : 15,
+		"shots" : 20,		
+		"level" : 2,
+		"sound" :
+		{
+			"attack": "might/centmelee.wav",
+			"defend": "might/centhit.wav",
+			"killed": "might/centdie.wav",
+			"shoot": "might/centshoot.wav",			
+			"move": "might/centwalk.wav",
+			"wince": "might/centhit.wav"
+		},
+		"speed" : 7,
+		"abilities" :
+		{
+			
+		"canShoot" :
+			{
+				"type" : "SHOOTER"
+			}
+		}
+	}
+}
+

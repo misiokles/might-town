@@ -1,0 +1,60 @@
+{
+	"crag" :
+	{
+		"class" : "bzerk",
+		"texts" :
+		{
+			"name" : "Crag",
+			"biography" : "Crag Hack will forever remain an opportunist, fighting for pleasure and profit instead of foolish intangibles like ideals or beliefs. Even his narrow escape from the destruction of the old world has failed to give him a more profound outlook on life.",
+			"specialty" :
+			{
+				"description" : "Bonus of Berserkers.",
+				"tooltip" : "",
+				"name" : "zerker"
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "might/heroes/crag/spec-small.png",
+			"specialtyLarge" : "might/heroes/crag/spec-large.png",
+			"large" : "might/heroes/crag/portrait-large.png",
+			"small" : "might/heroes/crag/portrait-small.png"
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "zerker",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "zerker",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "zerker",
+				"max" : 17,
+				"min" : 10
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "archery"
+			},
+			{
+				"level" : "basic",
+				"skill" : "luck"
+			}
+		],
+		
+		"specialty" : {
+			"creature" : "zerker"
+		}
+	}
+}

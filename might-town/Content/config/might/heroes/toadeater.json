@@ -1,0 +1,73 @@
+{
+	"toadeater" :
+	{
+		"class" : "haruspex",
+		"female" : true,
+		"texts" :
+		{
+			"name" : "Toadeater",
+			"biography" : "Toadeater is an industrious ogre skilled in hunting, skinning, and even tailoring crude clothing. She is also highly superstitious. On days when the omens are good, she will plunge into battle without any concern for her safety. But when the omens are bad, she won't even get out of bed.",
+			"specialty" :
+			{
+				"description" : "Bonus of Ice Bolt",
+				"tooltip" : "",
+				"name" : "Ice Bolt"
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "might/heroes/toadeater/spec-small.png",
+			"specialtyLarge" : "might/heroes/toadeater/spec-large.png",
+			"large" : "might/heroes/toadeater/portrait-large.png",
+			"small" : "might/heroes/toadeater/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"iceBolt"
+		],
+
+		"army" :
+		[
+			{
+				"creature" : "zerker",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "cent",
+				"max" : 10,
+				"min" : 8
+			},
+			{
+				"creature" : "h4harp",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "waterMagic"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"iceBolt" : {
+					"subtype" : "spell.iceBolt",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 3
+				}
+			}
+		}
+	}
+}

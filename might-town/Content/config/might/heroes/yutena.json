@@ -1,0 +1,71 @@
+{
+	"yutena" :
+	{
+		"class" : "haruspex",
+		"female" : true,		
+		"texts" :
+		{
+			"name" : "Yutena",
+			"biography" : "Yutena was one of Kilgor's youngest wives, and he favored her by sparring with her daily, giving her many scars. Although she realizes he brought about the destruction of the world, Yutena still holds a soft spot for him and believes there will be no greater king. Her only regret is that she never had Kilgor's child.",
+			"specialty" :
+			{
+				"description" : "Haste bonus",
+				"tooltip" : "",
+				"name" : "Haste"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "might/heroes/yutena/spec-small.png",
+			"specialtyLarge" : "might/heroes/yutena/spec-large.png",
+			"large" : "might/heroes/yutena/portrait-large.png",
+			"small" : "might/heroes/yutena/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"haste"
+		],
+
+		"army" :
+		[
+			{
+				"creature" : "zerker",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "cent",
+				"max" : 10,
+				"min" : 8
+			},
+			{
+				"creature" : "h4harp",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "airMagic"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"weakness" : {
+					"addInfo" : 0,
+					"subtype" : "spell.haste",
+					"type" : "SPECIAL_PECULIAR_ENCHANT"
+				}
+			}
+		}
+	}
+}

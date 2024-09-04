@@ -1,0 +1,73 @@
+{
+	"oroon" :
+	{
+		"class" : "haruspex",
+		"female" : true,
+		"texts" :
+		{
+			"name" : "Oroon",
+			"biography" : "Oroon is a real scrapper who will simply toss aside a broken weapon and fight with her teeth and bare hands, never once thinking about surrender. She may not be a large woman (in fact, she's quite small) but she wins fights through sheer tenacity.",
+
+			"specialty" :
+			{
+				"description" : "Bonus of Weakness",
+				"tooltip" : "",
+				"name" : "Weakness"
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "might/heroes/oroon/spec-small.png",
+			"specialtyLarge" : "might/heroes/oroon/spec-large.png",
+			"large" : "might/heroes/oroon/portrait-large.png",
+			"small" : "might/heroes/oroon/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"weakness"
+		],
+
+		"army" :
+		[
+			{
+				"creature" : "zerker",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "cent",
+				"max" : 10,
+				"min" : 8
+			},
+			{
+				"creature" : "h4harp",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "waterMagic"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"weakness" : {
+					"addInfo" : 0,
+					"subtype" : "spell.weakness",
+					"type" : "SPECIAL_PECULIAR_ENCHANT"
+				}
+			}
+		}
+	}
+}
+

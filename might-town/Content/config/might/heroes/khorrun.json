@@ -1,0 +1,68 @@
+{
+	"khorrun" :
+	{
+		"class" : "bzerk",
+		"texts" :
+		{
+			"name" : "Khorrun",
+			"biography" : "Khorrun's small, nomadic tribe dwelled in a harsh desert far from civilization. Nonetheless, bandits slaughtered his entire tribe while he was away gathering water. Now, he wanders the world alone. Like his people, Khorrun is quick to anger, slow to forgive, and intensely loyal to those that win his respect.",
+			"specialty" :
+			{
+				"description" : "Bonus of Armorer",
+				"tooltip" : "",
+				"name" : "Armorer"
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "might/heroes/khorrun/spec-small.png",
+			"specialtyLarge" : "might/heroes/khorrun/spec-large.png",
+			"large" : "might/heroes/khorrun/portrait-large.png",
+			"small" : "might/heroes/khorrun/portrait-small.png"
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "zerker",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "cent",
+				"max" : 10,
+				"min" : 8
+			},
+			{
+				"creature" : "h4harp",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "armorer"
+			},
+			{
+				"level" : "basic",
+				"skill" : "tactics"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"armorer" : {
+					"type" : "GENERAL_DAMAGE_REDUCTION",
+					"subtype" : "damageTypeAll",
+					"targetSourceType" : "SECONDARY_SKILL",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+				}
+			}
+		}
+	}
+}

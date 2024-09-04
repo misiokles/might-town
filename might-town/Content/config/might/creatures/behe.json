@@ -1,0 +1,61 @@
+{
+	"behe":
+	{
+		"name" :
+		{
+			"plural" : "Behemoths",
+			"singular" : "Behemoth"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 10,
+			 "min" : 4
+		},
+		"faction" : "might",
+		"aiValue" : 3850,
+		"attack" : 17,
+		"doubleWide" : true,
+                "cost" :
+		{
+			"gold" : 2400,
+			"gems" : 1
+		},
+		"damage" :
+		{
+			 "max" : 40,
+			 "min" : 30
+		},
+		"defense" : 21,
+		"fightValue" : 3100,
+		"graphics" :
+		{
+			"animation" : "might/battle/creatures/behe.DEF",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 3 },
+			"map" : "might/map/behemini.def",
+			"iconSmall" : "might/iconsSmall/behes.bmp",
+			"iconLarge" : "might/iconsBig/behel.bmp",
+			"timeBetweenFidgets" : 1
+               },
+		"growth" : 1,
+		"hitPoints" : 200,
+		"level" : 7,
+		"sound" :
+		{
+			
+			"attack": "might/beheatk.wav",
+			"defend": "might/behehit.wav",
+			"killed": "might/behedie.wav",
+			"move": "might/behewalk.wav",
+			"wince": "might/behehit.wav"
+		},
+		"speed" : 10,
+		"abilities":
+		{
+			"reduceDefence" :
+			{
+				"type" : "ENEMY_DEFENCE_REDUCTION",
+				"val" : 80
+			}
+		}
+	}
+}

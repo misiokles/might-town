@@ -1,0 +1,73 @@
+{
+	"ranella" :
+	{
+		"class" : "haruspex",
+		"female" : true,
+		"texts" :
+		{
+			"name" : "Ranella",
+			"biography" : "Sinewy Ranella is far stronger than she appears. She has bested many men in feats of strength and endurance, taking great pleasure in these victories. These days, however, she has become more of a mercenary and won't even accept a challenge unless there is a wager attached to it.",
+
+			"specialty" :
+			{
+				"description" : "Bonus of Weakness",
+				"tooltip" : "",
+				"name" : "Weakness"
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "might/heroes/ranella/spec-small.png",
+			"specialtyLarge" : "might/heroes/ranella/spec-large.png",
+			"large" : "might/heroes/ranella/portrait-large.png",
+			"small" : "might/heroes/ranella/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"weakness"
+		],
+
+		"army" :
+		[
+			{
+				"creature" : "zerker",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "cent",
+				"max" : 10,
+				"min" : 8
+			},
+			{
+				"creature" : "h4harp",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "waterMagic"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"weakness" : {
+					"addInfo" : 0,
+					"subtype" : "spell.weakness",
+					"type" : "SPECIAL_PECULIAR_ENCHANT"
+				}
+			}
+		}
+	}
+}
+

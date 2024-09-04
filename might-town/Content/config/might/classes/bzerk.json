@@ -1,0 +1,58 @@
+{
+	"bzerk" : {
+		"affinity" : "might",
+		"animation" : { "battle" : { "female" : "might/battle/heroes/HeroMale", "male" : "might/battle/heroes/HeroMale" } },
+		"commander" : "mchamp",
+		"defaultTavern" : 5,
+		"faction" : "might",
+		"highLevelChance" : { "attack" : 50, "defence" : 45, "knowledge" : 0, "spellpower" : 0 },
+		"lowLevelChance" : { "attack" : 60, "defence" : 40, "knowledge" : 0, "spellpower" : 0 },
+		"mapObject" : { "templates" : { "default" : { "animation" : "might/map/hero1" } } },
+		"name" : "Berserker",
+		"primarySkills" : { "attack" : 6, "defence" : 0, "knowledge" : 0, "spellpower" : 0 },
+		"secondarySkills" :
+		{
+			"pathfinding"  : 8,
+			"archery"      : 9,
+			"logistics"    : 8,
+			"scouting"     : 6,
+			"diplomacy"    : 6,
+			"navigation"   : 5,
+			"leadership"   : 6,
+			"wisdom"       : 3,
+			"mysticism"    : 1,
+			"luck"         : 7,
+			"ballistics"   : 5,
+			"eagleEye"     : 0,
+			"necromancy"   : 0,
+			"estates"      : 4,
+			"fireMagic"    : 2,
+			"airMagic"     : 3,
+			"waterMagic"   : 0,
+			"earthMagic"   : 0,
+			"scholar"      : 1,
+			"tactics"      : 6,
+			"artillery"    : 5,
+			"learning"     : 2,
+			"offence"      : 7,
+			"armorer"      : 4,
+			"intelligence" : 3,
+			"sorcery"      : 2,
+			"resistance"   : 7,
+			"firstAid"     : 2
+		},
+				"tavern" :
+		{
+			"castle"     : 4,
+			"rampart"    : 0,
+			"tower"      : 6,
+			"inferno"    : 6,
+			"necropolis" : 5,
+			"dungeon"    : 5,
+			"stronghold" : 6,
+			"fortress"   : 6,
+			"conflux"    : 5,
+			"might"   : 6                  
+		}
+	}
+}

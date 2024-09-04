@@ -1,0 +1,65 @@
+{
+	"myog" :
+	{
+		"class" : "bzerk",
+		"texts" :
+		{
+			"name" : "Yog",
+			"biography" : "Yog is a living contradiction. He may have the blue skin of his genie mother, but he has the battle fury and strength of his Barbarian father. At one time, he considered following his mother's path and embracing a life of magic, but his passion for warfare proved stronger.",
+			"specialty" :
+			{
+				"description" : "{Crystals}\r\n\r\nIncreases kingdom's crystal production by 1 per day.",
+				"tooltip" : "",
+				"name" : "+1 Crystal"
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "might/heroes/yog/spec-small.png",
+			"specialtyLarge" : "might/heroes/yog/spec-large.png",
+			"large" : "might/heroes/yog/portrait-large.png",
+			"small" : "might/heroes/yog/portrait-small.png"
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "zerker",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "cent",
+				"max" : 10,
+				"min" : 8
+			},
+			{
+				"creature" : "h4harp",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "armorer"
+			},
+			{
+				"level" : "basic",
+				"skill" : "tactics"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"crystal" : {
+					"subtype" : "resource.crystal",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 1
+				}
+			}
+		}
+	}
+}

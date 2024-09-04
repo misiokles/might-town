@@ -1,0 +1,71 @@
+{
+	"lanya" :
+	{
+		"class" : "haruspex",
+		"female" : true,		
+		"texts" :
+		{
+			"name" : "Lanya",
+			"biography" : "Long-limbed Lanya is able to run farther and faster than anyone she knows. Due to her incredible endurance, she was recruited as a war messenger. Because it is dangerous for a girl running alone from one battlefield to another, however, Lanya learned to fight as well.",
+			"specialty" :
+			{
+				"description" : "Haste bonus",
+				"tooltip" : "",
+				"name" : "Haste"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "might/heroes/lanya/spec-small.png",
+			"specialtyLarge" : "might/heroes/lanya/spec-large.png",
+			"large" : "might/heroes/lanya/portrait-large.png",
+			"small" : "might/heroes/lanya/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"haste"
+		],
+
+		"army" :
+		[
+			{
+				"creature" : "zerker",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "cent",
+				"max" : 10,
+				"min" : 8
+			},
+			{
+				"creature" : "h4harp",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "airMagic"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"weakness" : {
+					"addInfo" : 0,
+					"subtype" : "spell.haste",
+					"type" : "SPECIAL_PECULIAR_ENCHANT"
+				}
+			}
+		}
+	}
+}

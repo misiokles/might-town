@@ -1,0 +1,73 @@
+{
+	"nef" :
+	{
+		"class" : "haruspex",
+		"female" : true,
+		"texts" :
+		{
+			"name" : "Nef",
+			"biography" : "Because most of her tribe perished in the Reckoning, Nef's people joined with another clan to survive. Through no choice of her own, Nef is now married to a man she doesn't know. Thankfully, he's a warrior who has no time for frivolous things such as love, and is rarely home.",
+			"specialty" :
+			{
+				"description" : "+350 Gold per day",
+				"tooltip" : "",
+				"name" : "+350 Gold"
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "might/heroes/nef/spec-small.png",
+			"specialtyLarge" : "might/heroes/nef/spec-large.png",
+			"large" : "might/heroes/nef/portrait-large.png",
+			"small" : "might/heroes/nef/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"viewEarth"
+		],
+
+		"army" :
+		[
+			{
+				"creature" : "zerker",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "cent",
+				"max" : 10,
+				"min" : 8
+			},
+			{
+				"creature" : "h4harp",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "estates"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"gold" : {
+					"subtype" : "resource.gold",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 350
+				}
+			}
+		}
+	}
+}
+

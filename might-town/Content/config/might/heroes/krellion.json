@@ -1,0 +1,64 @@
+{
+	"mkrellion" : 
+	{
+		"class" : "bzerk",
+		"texts" :
+		{
+			"name" : "Krellion",
+			"biography" : "Krellion was originally a wrestler, but he gave it up to lead men into battle because there simply wasn't any challenge in bloodless combat anymore. Sometimes, he longs for the glory days when King Kilgor and the Barbarian armies swept over the land - dominating all who came before him.",
+			"specialty" :
+			{
+				"description" : "Bonus of Scouting",
+				"tooltip" : "",
+				"name" : "Scouting"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "might/heroes/krellion/spec-small.png",
+			"specialtyLarge" : "might/heroes/krellion/spec-large.png",
+			"large" : "might/heroes/krellion/portrait-large.png",
+			"small" : "might/heroes/krellion/portrait-small.png"
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "zerker",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "cent",
+				"max" : 10,
+				"min" : 8
+			},
+			{
+				"creature" : "h4harp",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "advanced",
+				"skill" : "scouting"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+                "sight" : {
+					"type" : "SIGHT_RADIUS",
+					"val" : 0,
+					"valueType" : "BASE_NUMBER",
+                    "updater" : {
+                        "parameters" : [6],
+                        "type" : "GROWS_WITH_LEVEL"
+                    }
+				}	
+			}
+		}
+	}
+}

@@ -1,0 +1,60 @@
+{
+	"ferret" :
+	{
+		"class" : "bzerk",
+		"texts" :
+		{
+			"name" : "Ferret",
+			"biography" : "The day Ferret became a warrior, he chose a sleek, devious rodent as his namesake because it fit his personality best. Even to this day, those that don't know him make the mistake of challenging him to single combat. They soon learn why people say, This Ferret has long teeth!",
+			"specialty" :
+			{
+				"description" : "Bonus of Cave Centaurs",
+				"tooltip" : "",
+				"name" : "Centaurs"
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "might/heroes/ferret/spec-small.png",
+			"specialtyLarge" : "might/heroes/ferret/spec-large.png",
+			"large" : "might/heroes/ferret/portrait-large.png",
+			"small" : "might/heroes/ferret/portrait-small.png"
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "zerker",
+				"max" : 20,
+				"min" : 15
+			},
+			{
+				"creature" : "cent",
+				"max" : 10,
+				"min" : 7
+			},
+			{
+				"creature" : "cent",
+				"max" : 10,
+				"min" : 7
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "tactics"
+			},
+			{
+				"level" : "basic",
+				"skill" : "artillery"
+			}
+		],
+		
+		"specialty" : {
+			"creature" : "cent"
+		}
+	}
+}
