@@ -1,12 +1,19 @@
 {
 	"name" : "Might",
 	"description" : "Heroes IV Might/Stronghold Town",
-	
 	"author" : "AcidChalk",
 	"contact" : "",
-	"version" : "0.8",
+	"version" : "0.81",
 	"modType" : "Town",
-
+	"compatibility" :
+	{
+		"min" : "1.5.0"
+	},	
+	"changelog" :
+	{
+		"0.81"   : [ "Update to vcmi-1.5 format" ],
+		"0.80"   : [ "Initial release" ]
+	},
     "factions" : [ "config/might/town.json" ],
 	
 	"creatures" :
