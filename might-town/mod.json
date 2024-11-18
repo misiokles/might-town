@@ -14,8 +14,15 @@
 		"0.81"   : [ "Update to vcmi-1.5 format" ],
 		"0.80"   : [ "Initial release" ]
 	},
-    "factions" : [ "config/might/town.json" ],
+	"chinese": {
+		"name" : "力量",
+		"description" : "英雄无敌4力量城镇。",
+		"translations" : [
+			"translation/might/chinese.json"
+		]
+	},	
 	
+    "factions" : [ "config/might/town.json" ],
 	"creatures" :
 	[
 		"config/might/creatures/zerker.json",
@@ -29,10 +36,6 @@
 		"config/might/creatures/fchamp.json",
 		"config/might/creatures/mchamp.json"
 	],
-	
-        
-    
-	
 	"heroClasses" :
 	[
 		"config/might/classes/bzerk.json",
