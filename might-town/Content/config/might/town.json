@@ -232,6 +232,7 @@
 				{
 					"name" : "Marketplace",
 					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
+					"marketModes" : ["resource-resource", "resource-player"],
 					"cost" :
 					{
 						"wood" : 5,
@@ -249,12 +250,14 @@
 						"gold" : 5000
 					},
 					"requires" : [ "marketplace" ],
+					"produce": { "gems": 1 },
 					"id" : 15
 				},
 				"blacksmith" :
 				{
 					"description" : "The Arsenal provides your armies with a Ballista.",
 					"name" : "Arsenal",
+							"warMachine" : "ballista",
 					"cost" :
 					{
 						"wood" : 5,
@@ -302,7 +305,7 @@
 				},
 				"arena" :
 				{
-					"description" : "The Arena of Honor increases one of the primary skills of a visiting hero +1.",
+					"description" : "The Arena of Honor increases one of the primary skills of a visiting hero +1 (not implemented).",
 					"name" : "Arena of Honor",
 					"cost" : {
 						"ore" : 5,
@@ -313,8 +316,9 @@
 				},
 				"grail" :
 				{
-					"description" : "Provides 3000 gold per day. Also, the creature growth in this town increases by 100%, and the creature growth in all of the player's other Strongholds increases by 25%.",
+					"description" : "Provides 5000 gold per day. Also, the creature growth in this town increases by 100%, and the creature growth in all of the player's other Strongholds increases by 25%.",
 					"name" : "Festival of Life",
+					"produce": { "gold": 5000 },
 					"id" : 26,
 					"mode" : "grail"
 				},
@@ -536,7 +540,7 @@
 			},
 			"mageGuild" : 5,
 			
-			"musicTheme" : "music/might/theme",
+			"musicTheme" : [ "music/might/theme" ],
 			"names" :
 			[
 				"Battlement",
@@ -556,7 +560,6 @@
 				"Strongglen",
 				"Tormina"
 			],
-			"primaryResource" : "gems",
 			"siege" :
 			{
 				"shooter" : "mchamp",
@@ -888,7 +891,6 @@
 			},
 		"tavernVideo" : "TAVERN.BIK",
 		"townBackground": "might/town-screen/background",
-		"warMachine" : "ballista",
 		"moatAbility" : "castleMoat",
 		"hallSlots" : [
 				[
